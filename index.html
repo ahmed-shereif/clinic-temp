@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="./all.min.css" rel="stylesheet"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar">
+  
+        <div class="nav-left">
+            <img src="./photo/logo.svg" alt="">
+        </div>
+        <div class="nav-center">
+            <ul>
+                <li id="drop_one" >Services<span><img src="./photo/arrow-sm-orange-bottom.svg" alt=""></span> </li>
+                <li>Clinic <span><img src="./photo/arrow-sm-orange-bottom.svg" alt=""></span></li>
+                <li>Our doctors</li>
+                <li>Stock</li>
+                <li>reviews</li>
+                <li>Contacts</li>
+            </ul>
+           
+        </div>
+        <div  class="nav-right">
+            <img src="./photo/search-orange.svg" alt="">
+            <img src="./photo/phone-orange.svg" alt="">
+            <button class="b1">Sign up</button>
+            <button class="b2"><img src="./photo/emergency-svgrepo-com.svg" alt=""> </button>
+
+        </div>
+      
+    </nav>
+
+
+    <div class="services_menu" id="services_menu">
+        <div class="services_anc">
+          <a href=""> Reception at the clinic</a>
+          <a href="">Patranage </a>
+          <a href="">Analyzes </a>
+          <a href="">Ultrasound </a>
+          <a href="">Vaccination </a>
+          <a href="">X-ray </a>
+          <a href="">Online consultation </a>
+   
+        </div>
+        <div class="services_anc">
+            <a href="">House call</a>
+            <a href="">Medical</a>
+            <a href="">Massage</a>
+            <a href="">Physiotherapy</a>
+            <a href="">School of future parents</a>
+            <a href="">Complex programs</a>
+        </div>
+        <div class="services_img" >
+            <img src="./photo/4 first aid kit (1).png" alt="">
+        </div>
+       
+
+
+    </div>
+
+
+
+    <!-- main  first view -->
+    <div class="first_view">
+        <div class="first_view_left">
+            <p>for</p>
+            <p>Confident</p>
+            <p>Parents!</p>
+           <h3>Medical services for children</h3>
+           <h3>of all ages</h3>
+        </div>
+        <div class="first_view_right">
+            <div class="img1">
+                <div>
+                    <p>0-1</p>
+                    <span>year</span>
+                </div>
+               
+                <img src="./photo/stab-img.png" alt="">
+            </div>
+           <div class="img2">
+               <div>
+                <p>1-2</p>
+                <span>of the year</span>
+               </div>
+    
+            <img src="./photo/Girl 4.png" alt="">
+           </div>
+           <div class="img3">
+               <div>
+                <p>3-18</p>
+                <span>years</span>
+               </div>
+      
+            <img src="./photo/Skater 1.png" alt="">
+        </div>
+   
+    
+        </div>
+
+        <div class="left_button"> promtions and events</div>
+        <div class="down_button">
+            <img src="./photo/pen-white.svg" alt="">
+             <p> To make an appointment</p>
+            </div>
+
+    </div>
+
+    <!-- second_view -->
+    <!-- ============== -->
+    <div class="second_view">
+        <div class="second_view_right">
+            <h2>
+                In rachi with a capital letter
+            </h2>
+            <p>
+                Children's clinic "Persona Childhood" - this is a doctor of various specialties, a wide range of services, modern equipment and unique design.
+                With love and care for every little Person.
+            </p>
+            <button>
+                Meet The Doctor
+            </button>
+        </div>
+        <div class="second_view_left">
+            <img src="./photo/Doctor.png" alt="">
+        </div>
+    </div>
+
+    
+    <!-- third_view -->
+    <!-- ============== -->
+    
+    <div  class="third_view">
+  
+        <div class="third_view_up">
+            <h2>Reached heights in important</h2>
+        </div>
+        <div class="third_view_down">
+
+            <div class="arrow" onclick="prevImge()">
+                <span> < </span>
+            </div>
+         
+            <div class="third_view_down_img">
+                <img id="img_change" src="./photo/4analyzes (1).png" alt="">
+       
+            </div>
+           <div class="third_view_down_text">
+               <h1>Analyzes</h1>
+            <h2>
+                
+                Diagnostics of the state of health for the prevention and control of the treatment of diseases.
+                List of analyzes
+            </h2>
+            <button class="third_view_down_button">
+                list of analyzes
+            </button>
+           </div>
+ 
+          
+            <div  class="arrow" onclick="nextImge()">
+                <span> > </span>  
+            </div>
+          
+        
+        </div>
+        <div id="bullets">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+    <div class="footer">
+        Made by <p> AHMED SHERIF</p>
+    </div>
+
+    <script src="./main.js">  </script>
+</body>
+</html>
